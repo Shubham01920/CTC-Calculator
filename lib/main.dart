@@ -1,4 +1,5 @@
-import 'package:ctc_calculator/src/pages/home_page.dart';
+import 'package:ctc_calculator/src/pages/contact_page.dart';
+import 'package:ctc_calculator/src/pages/privacy_policy_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: HomePage(),
+      home: BottomAppBar()
     );
   }
 }
