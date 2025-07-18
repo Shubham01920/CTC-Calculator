@@ -12,7 +12,7 @@ class PrivacyPolicyPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        // bottomNavigationBar: BottomAppBar(),
+       
         backgroundColor: AppColors.background,
         appBar: const CustomAppBar(),
         body: SingleChildScrollView(
